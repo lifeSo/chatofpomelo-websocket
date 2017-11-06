@@ -3,6 +3,8 @@
 logs/*.log
 *.log
 !.gitignore
+!game-server/node_modules/pomelo/*
+!game-server/node_modules/pomelo-rpc/*
 game-server/node_modules/*
 web-server/node_modules/*
 .project
